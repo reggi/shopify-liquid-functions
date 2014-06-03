@@ -1,0 +1,9 @@
+{% assign return = false %}
+{% if query %}
+{% if string %}
+  {% assign replaced = string | remove: query %}  
+  {% if string != replaced %}
+    {% assign return = true %}
+  {% endif %}
+{% endif %}
+{% endif %}
