@@ -1,5 +1,7 @@
 # Shopify Liquid Functions
 
+I hate repeating myself in shopify liquid, so to abide by the [Don't repeat yourself](http://en.wikipedia.org/wiki/Don't_repeat_yourself) (DRY) principle of software development, I created a spec for creating reusable functions in Shopify Liquid.
+
 I've been using a technique for a little while now to create functions in shopify. With it's own sort of spec. I've been making them more and more, this repo will be dedicated to housing them.
 
 ## Example Function
