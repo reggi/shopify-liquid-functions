@@ -1,0 +1,10 @@
+{% assign return = false %} 
+{% if query %}
+{% if array %}
+{% for item in array %}
+  {% if item == query %}
+    {% assign return = true %}
+  {% endif %}
+{% endfor %}
+{% endif %}
+{% endif %}

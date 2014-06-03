@@ -2,3 +2,4 @@
 {% assign string = 'hello world 5"x7"' %}
 {% include "function.string_contains" %}
 {% assign contains_query = return %}
+{{ contains_query | json }}
